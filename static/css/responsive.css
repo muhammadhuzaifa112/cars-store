@@ -1,0 +1,128 @@
+@media (max-width: 700px) {
+  :root { --gutter: 20px; }
+  .site-header { height: 68px; }
+  .site-header.is-solid { height: 62px; }
+  .brand-lockup { gap: 8px; }
+  .brand-emblem { width: 28px; height: 28px; font-size: 21px; }
+  .brand-name { display: grid; gap: 1px; font-size: 11px; }
+  .brand-name small { font-size: 6px; }
+  .header-actions { gap: 7px; }
+  .header-appointment { display: none; }
+  .hero { min-height: 640px; height: 90svh; max-height: 780px; }
+  .hero-photo { background-position: 59% center; }
+  .hero-overlay { background: linear-gradient(90deg,rgba(8,10,10,.82),rgba(8,10,10,.28)),linear-gradient(0deg,rgba(8,10,10,.62),transparent 48%); }
+  .hero-copy { top: 45%; width: calc(100% - 40px); transform: translateY(-38%); }
+  .hero h1 { font-size: clamp(70px, 17vw, 105px); }
+  .hero-subtitle { max-width: 270px; font-size: 11px; line-height: 1.65; }
+  .hero-actions { align-items: flex-start; flex-direction: column; gap: 17px; }
+  .hero-spec { bottom: 26px; }
+  .hero-spec-one { left: 20px; }
+  .hero-spec-two { right: 20px; }
+  .hero-spec strong { font-size: 15px; }
+  .hero-spec-two strong { font-size: 20px; }
+  .scroll-cue { bottom: 25px; }
+  .hero-coordinate { display: none; }
+  .brand-rail { min-height: 85px; flex-wrap: wrap; justify-content: center; gap: 13px 20px; padding: 16px 20px; }
+  .brand-rail > span { flex-basis: 100%; max-width: none; text-align: center; }
+  .brand-rail > div { font-size: 12px; }
+  .section { padding: 70px var(--gutter); }
+  .section-heading { align-items: flex-start; flex-direction: column; gap: 18px; margin-bottom: 26px; }
+  .section-heading h2, .testimonial-top h2 { font-size: 56px; }
+  .section-heading-aside { gap: 11px; }
+  .vehicle-grid { grid-template-columns: 1fr; gap: 30px; }
+  .vehicle-image-wrap { aspect-ratio: 1.45; }
+  .vehicle-heading-row h3 { font-size: 29px; }
+  .vehicle-price { font-size: 12px; }
+  .manifesto-section, .numbers-section, .booking-section { grid-template-columns: 1fr; }
+  .manifesto-image { min-height: 270px; }
+  .manifesto-copy { padding: 45px 22px 53px; }
+  .manifesto-copy h2 { font-size: 49px; }
+  .services-section { padding-block: 65px; }
+  .service-grid { grid-template-columns: 1fr 1fr; }
+  .service-item { min-height: 211px; padding-right: 12px; }
+  .service-item + .service-item { padding-left: 13px; }
+  .service-item:nth-child(2) { border-right: 0; }
+  .service-item:nth-child(3) { padding-left: 0; }
+  .service-item h3 { margin-top: 47px; font-size: 22px; }
+  .service-item p { font-size: 8px; }
+  .service-icon { right: 11px; }
+  .numbers-image { min-height: 220px; }
+  .numbers-content { padding: 38px 20px; }
+  .stats-grid { gap: 23px 15px; }
+  .stats-grid strong { font-size: 37px; }
+  .testimonial-top { align-items: flex-end; }
+  .testimonial-top h2 { font-size: 49px; }
+  .carousel-controls { gap: 5px; }
+  .carousel-controls button { width: 33px; height: 33px; }
+  .testimonial blockquote { font-size: 27px; }
+  .testimonial-carousel { min-height: 270px; }
+  .booking-image { min-height: 240px; }
+  .booking-content { padding: 45px 20px; }
+  .booking-content h2 { font-size: 57px; }
+  .form-grid { gap: 13px; }
+  .form-grid label { font-size: 7px; }
+  .form-grid input, .form-grid select, .form-grid textarea { font-size: 9px; }
+  .form-submit-row { align-items: flex-start; flex-direction: column; }
+  .contact-band { align-items: flex-start; flex-direction: column; padding-block: 48px; }
+  .contact-band h2 { font-size: 51px; }
+  .footer-main { grid-template-columns: 1fr 1fr; gap: 30px 20px; }
+  .footer-brand { grid-column: 1/-1; }
+  .footer-bottom { align-items: flex-start; flex-direction: column; gap: 9px; }
+  .footer-bottom .sample-note { text-align: left; }
+  .page-hero { min-height: 480px; height: 68svh; padding-bottom: 62px; }
+  .page-hero h1 { font-size: clamp(62px, 14vw, 90px); }
+  .page-hero-index { right: 20px; bottom: 22px; font-size: 6px; }
+  .inventory-main { padding-top: 47px; }
+  .inventory-title-row { align-items: flex-start; flex-direction: column; gap: 11px; }
+  .inventory-title-row h2 { font-size: 48px; }
+  .inventory-title-row > p { text-align: left; }
+  .filter-panel { grid-template-columns: 1fr 1fr; gap: 14px; padding: 14px; }
+  .filter-search { grid-column: 1/-1; }
+  .clear-filters { grid-column: 1/-1; }
+  .inventory-controls { align-items: flex-start; gap: 10px; }
+  .inventory-view-controls { gap: 8px; }
+  .inventory-view-controls label { align-items: flex-start; flex-direction: column; gap: 3px; }
+  .inventory-grid.is-list .vehicle-card { grid-template-columns: 1fr; }
+  .inventory-grid.is-list .vehicle-image-wrap { aspect-ratio: 1.5; }
+  .inventory-grid.is-list .vehicle-meta { padding: 12px 1px; }
+  .detail-intro { padding-top: 90px; }
+  .detail-heading { align-items: flex-start; flex-direction: column; gap: 20px; }
+  .detail-heading h1 { font-size: 61px; }
+  .detail-price-block { text-align: left; }
+  .detail-price-block strong { font-size: 25px; }
+  .gallery-main { aspect-ratio: 1.15; }
+  .gallery-thumb { width: 70px; }
+  .detail-content { padding-top: 48px; }
+  .detail-main-column { gap: 38px; }
+  .detail-actions { align-items: stretch; flex-direction: column; }
+  .detail-actions .button { justify-content: space-between; }
+  .finance-panel { padding: 18px; }
+  .about-story { grid-template-columns: 1fr; gap: 22px; }
+  .about-story-label { min-height: 0; gap: 8px; }
+  .about-story-copy h2 { font-size: 46px; }
+  .about-story-photo { grid-column: auto; min-height: 250px; }
+  .values-section { grid-template-columns: 1fr; gap: 30px; padding-block: 47px; }
+  .values-heading h2 { font-size: 58px; }
+  .about-cta { padding-block: 60px; }
+  .about-cta h2 { font-size: 54px; }
+  .contact-layout { grid-template-columns: 1fr; gap: 46px; }
+  .contact-information h2, .contact-form-wrap h2 { font-size: 55px; }
+  .map-placeholder { min-height: 235px; }
+  .map-card { margin: 0 15px; padding: 14px; }
+  .map-card strong { font-size: 17px; }
+  .wishlist-dialog, .compare-dialog { padding: 23px 18px; }
+  .compare-dock { bottom: 9px; gap: 8px; width: max-content; max-width: calc(100% - 20px); }
+  .compare-dock > div { max-width: 116px; }
+  .compare-dock strong { white-space: normal; }
+  .not-found { min-height: 77vh; }
+}
+
+@media (max-width: 370px) {
+  :root { --gutter: 16px; }
+  .header-actions { gap: 2px; }
+  .header-search { display: none; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-wide { grid-column: auto; }
+  .service-item h3 { font-size: 19px; }
+  .stats-grid strong { font-size: 32px; }
+}

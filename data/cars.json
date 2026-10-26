@@ -1,0 +1,86 @@
+[
+  {
+    "id": "911-carrera-gts", "brand": "Porsche", "model": "911 Carrera GTS", "year": 2024, "price": 164900, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1611651338412-8403fa6e3599?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Hybrid", "transmission": "8-speed PDK", "mileage": 1820, "engine": "3.6L flat-six hybrid", "color": "Chalk", "horsepower": 532, "body_style": "Coupe", "seats": 4,
+    "description": "A precise, quietly confident sports car with the pace to make every open road feel like an occasion.", "features": ["Sport Chrono package", "Adaptive sport seats", "Bose surround sound", "Front axle lift"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "amg-gt-coupe", "brand": "Mercedes-Benz", "model": "AMG GT Coupe", "year": 2024, "price": 136900, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1618843479618-39b1f3d0e0ea?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "9-speed automatic", "mileage": 2400, "engine": "4.0L twin-turbo V8", "color": "Graphite Grey", "horsepower": 523, "body_style": "Coupe", "seats": 2,
+    "description": "Long-hood proportions, a hand-built V8, and a cabin shaped around the connection between driver and machine.", "features": ["AMG Ride Control", "Performance exhaust", "Burmester sound", "Panoramic roof"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "m4-competition", "brand": "BMW", "model": "M4 Competition", "year": 2023, "price": 89200, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "8-speed M Steptronic", "mileage": 5100, "engine": "3.0L twin-turbo inline-six", "color": "Brooklyn Grey", "horsepower": 503, "body_style": "Coupe", "seats": 4,
+    "description": "A modern M car with formidable pace, everyday comfort, and a chassis that rewards a thoughtful driver.", "features": ["M Sport differential", "Carbon-fibre trim", "Harman Kardon audio", "Adaptive M suspension"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "r8-v10-performance", "brand": "Audi", "model": "R8 V10 Performance", "year": 2022, "price": 189500, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "7-speed S tronic", "mileage": 6840, "engine": "5.2L naturally aspirated V10", "color": "Kemora Grey", "horsepower": 602, "body_style": "Coupe", "seats": 2,
+    "description": "A naturally aspirated V10 and quattro traction combine into one of the most involving modern grand tourers.", "features": ["Carbon exterior package", "Bang & Olufsen audio", "Laser headlights", "Magnetic ride"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "huracan-evo-spyder", "brand": "Lamborghini", "model": "Huracan EVO Spyder", "year": 2023, "price": 319500, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "7-speed dual-clutch", "mileage": 3175, "engine": "5.2L naturally aspirated V10", "color": "Verde Mantis", "horsepower": 631, "body_style": "Convertible", "seats": 2,
+    "description": "Open-air theatre in a sharply sculpted package, with naturally aspirated character at its heart.", "features": ["Magneto-rheological suspension", "Lifting system", "Carbon ceramic brakes", "EVO-TRIM interior"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "296-gtb", "brand": "Ferrari", "model": "296 GTB", "year": 2023, "price": 328500, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1592198084033-2c6f2d6ab3a1?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Plug-in hybrid", "transmission": "8-speed dual-clutch", "mileage": 2460, "engine": "3.0L twin-turbo V6 hybrid", "color": "Rosso Corsa", "horsepower": 819, "body_style": "Coupe", "seats": 2,
+    "description": "A compact berlinetta with a new-generation hybrid powertrain and a remarkable breadth of character.", "features": ["Assetto Fiorano suspension", "Carbon-fibre steering wheel", "Front lift", "Scuderia Ferrari shields"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "720s-spider", "brand": "McLaren", "model": "720S Spider", "year": 2022, "price": 289000, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1600705722907-7c001e89a4c6?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "7-speed SSG", "mileage": 3910, "engine": "4.0L twin-turbo V8", "color": "Papaya Spark", "horsepower": 710, "body_style": "Convertible", "seats": 2,
+    "description": "An advanced carbon-fibre architecture and a retractable roof make this a supercar for every season.", "features": ["Carbon-fibre Monocage II-S", "Vehicle lift", "Bowers & Wilkins audio", "Electrochromic roof"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "corvette-z06", "brand": "Chevrolet", "model": "Corvette Z06", "year": 2024, "price": 119800, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1611651338412-8403fa6e3599?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1552519507-88aa2dfa9fdb?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "8-speed dual-clutch", "mileage": 980, "engine": "5.5L naturally aspirated V8", "color": "Arctic White", "horsepower": 670, "body_style": "Coupe", "seats": 2,
+    "description": "A mid-engine American performance car developed with the precision and endurance of a track machine.", "features": ["Z07 performance package", "Carbon-fibre wheels", "Brembo carbon ceramic brakes", "Performance data recorder"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "supra-35-premium", "brand": "Toyota", "model": "GR Supra 3.0 Premium", "year": 2023, "price": 58900, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "8-speed automatic", "mileage": 4280, "engine": "3.0L turbocharged inline-six", "color": "Renaissance Red 2.0", "horsepower": 382, "body_style": "Coupe", "seats": 2,
+    "description": "A focused two-seat coupe with a balanced chassis and a straight-six that feels special at every speed.", "features": ["Adaptive variable suspension", "JBL premium audio", "Head-up display", "Heated sport seats"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "civic-type-r", "brand": "Honda", "model": "Civic Type R", "year": 2024, "price": 46900, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1600705722907-7c001e89a4c6?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "6-speed manual", "mileage": 760, "engine": "2.0L turbocharged inline-four", "color": "Championship White", "horsepower": 315, "body_style": "Hatchback", "seats": 4,
+    "description": "A practical performance hatchback with a tactile manual gearbox and a chassis built for driver involvement.", "features": ["Limited-slip differential", "Brembo front brakes", "Triple-outlet exhaust", "Honda LogR data logger"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "rs6-avant", "brand": "Audi", "model": "RS 6 Avant", "year": 2023, "price": 128400, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Gasoline", "transmission": "8-speed Tiptronic", "mileage": 6030, "engine": "4.0L twin-turbo V8", "color": "Nardo Grey", "horsepower": 591, "body_style": "Wagon", "seats": 5,
+    "description": "A long-distance estate with generous space and the effortless speed of a twin-turbo V8.", "features": ["Dynamic Ride Control", "Bang & Olufsen audio", "Soft-close doors", "Head-up display"], "availability": "Sample listing - availability must be confirmed"
+  },
+  {
+    "id": "taycan-turbo", "brand": "Porsche", "model": "Taycan Turbo", "year": 2024, "price": 156700, "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?auto=format&fit=crop&w=1500&q=85",
+    "gallery": ["https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?auto=format&fit=crop&w=1800&q=90", "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=85", "https://images.unsplash.com/photo-1611651338412-8403fa6e3599?auto=format&fit=crop&w=1400&q=85"],
+    "fuel_type": "Electric", "transmission": "2-speed automatic", "mileage": 1290, "engine": "Dual electric motors", "color": "Frozen Blue Metallic", "horsepower": 670, "body_style": "Sedan", "seats": 4,
+    "description": "All-electric grand touring with rapid charging capability, composed handling, and a beautifully quiet cabin.", "features": ["Performance battery Plus", "Adaptive air suspension", "Panoramic roof", "14-way comfort seats"], "availability": "Sample listing - availability must be confirmed"
+  }
+]

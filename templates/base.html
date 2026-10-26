@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101111">
+  <meta name="description" content="{{ description|default('A considered collection of exceptional performance and luxury vehicles.') }}">
+  <title>{{ title|default(settings.showroom_name ~ ' | The art of the drive') }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/animations.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+  <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='js/forms.js') }}" defer></script>
+  {% block head %}{% endblock %}
+</head>
+<body class="{{ page_class|default('') }}" style="--gold: {{ settings.theme.accent }}; --black: {{ settings.theme.background }};">
+  <div class="page-loader" aria-hidden="true"><span class="loader-mark">A</span><span class="loader-line"></span></div>
+  <header class="site-header" id="site-header">
+    <a class="brand-lockup" href="/" aria-label="{{ settings.showroom_name }} home"><span class="brand-emblem">A</span><span class="brand-name">APEX <small>MOTOR HOUSE</small></span></a>
+    <nav class="desktop-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="/" class="{% if request.path == '/' %}active{% endif %}">Home</a>
+      <a href="/inventory" class="{% if request.path == '/inventory' %}active{% endif %}">Inventory</a>
+      <a href="/about" class="{% if request.path == '/about' %}active{% endif %}">Our story</a>
+      <a href="/#services">Services</a>
+      <a href="/contact" class="{% if request.path == '/contact' %}active{% endif %}">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-button header-search" href="/inventory#inventory-filters" aria-label="Search inventory" title="Search inventory"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 4.4 4.4"/></svg></a>
+      <button class="icon-button wishlist-open" type="button" aria-label="Open wishlist" title="Wishlist"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5.3-8.8 11-8.8 11s-8.8-5.7-8.8-11a4.8 4.8 0 0 1 8.8-2.6 4.8 4.8 0 0 1 8.8 2.6Z"/></svg><span class="icon-count" id="wishlist-count">0</span></button>
+      <a class="header-appointment" href="/#book-drive">Arrange a visit <span>↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main-content">{% block content %}{% endblock %}</main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="brand-lockup" href="/"><span class="brand-emblem">A</span><span class="brand-name">APEX <small>MOTOR HOUSE</small></span></a><p>{{ settings.tagline }}<br>Considered cars. Unforgettable roads.</p></div>
+      <div class="footer-column"><h2>Explore</h2><a href="/inventory">The collection</a><a href="/about">Our story</a><a href="/#services">Our services</a><a href="/contact">Get in touch</a></div>
+      <div class="footer-column"><h2>Visit the house</h2><a href="{{ settings.contact.map_url }}" target="_blank" rel="noreferrer">{{ settings.contact.address }}</a><a href="tel:{{ settings.contact.phone }}">{{ settings.contact.phone }}</a><a href="mailto:{{ settings.contact.email }}">{{ settings.contact.email }}</a></div>
+      <div class="footer-column"><h2>Follow the drive</h2><a href="{{ settings.social.instagram }}" target="_blank" rel="noreferrer">Instagram ↗</a><a href="{{ settings.social.facebook }}" target="_blank" rel="noreferrer">Facebook ↗</a><a href="{{ settings.social.youtube }}" target="_blank" rel="noreferrer">YouTube ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 {{ settings.showroom_name }}. All rights reserved.</span><span class="sample-note">{{ settings.demo_notice }}</span><a href="#main-content">Back to top ↑</a></div>
+  </footer>
+
+  <dialog class="wishlist-dialog" id="wishlist-dialog" aria-labelledby="wishlist-title">
+    <div class="dialog-top"><div><p class="eyebrow">YOUR PRIVATE SHORTLIST</p><h2 id="wishlist-title">Saved cars<span>.</span></h2></div><button class="icon-button dialog-close" type="button" aria-label="Close wishlist">×</button></div>
+    <div id="wishlist-items" class="wishlist-items"></div><p id="wishlist-empty" class="empty-note">Your shortlist is ready for its first car.</p>
+  </dialog>
+  <div class="compare-dock" id="compare-dock" hidden><div><span class="eyebrow">SIDE BY SIDE</span><strong><span id="compare-count">0</span> cars selected</strong></div><button type="button" id="compare-open" class="button button-small">Compare cars</button><button type="button" id="compare-clear" class="compare-clear" aria-label="Clear comparison">×</button></div>
+  <dialog class="compare-dialog" id="compare-dialog" aria-labelledby="compare-title"><div class="dialog-top"><div><p class="eyebrow">MAKE THE CALL</p><h2 id="compare-title">Compare cars<span>.</span></h2></div><button class="icon-button compare-dialog-close" type="button" aria-label="Close comparison">×</button></div><div class="comparison-table" id="comparison-table"></div></dialog>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+</body>
+</html>

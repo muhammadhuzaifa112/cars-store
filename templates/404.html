@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% set title = 'Page not found | ' ~ settings.showroom_name %}
+{% set page_class = 'not-found-page' %}
+{% block content %}<section class="not-found"><p class="eyebrow"><span class="eyebrow-dash"></span> WRONG TURN / 404</p><h1>This road<br><em>ends here.</em></h1><p>The page you were looking for has taken another route.</p><a class="button button-gold" href="/">Back to the showroom <span>↗</span></a></section>{% endblock %}

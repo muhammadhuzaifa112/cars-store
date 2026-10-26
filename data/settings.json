@@ -1,0 +1,29 @@
+{
+  "showroom_name": "Apex Motor House",
+  "tagline": "The art of the drive.",
+  "logo_path": "/",
+  "contact": {
+    "phone": "+1 (555) 014-8820",
+    "email": "hello@apexmotors.example",
+    "address": "1000 Grand Avenue, Los Angeles, CA 90015",
+    "map_url": "https://maps.google.com/?q=1000+Grand+Avenue+Los+Angeles+CA"
+  },
+  "business_hours": [
+    {"days": "Monday - Friday", "hours": "9:00 AM - 6:00 PM"},
+    {"days": "Saturday", "hours": "10:00 AM - 4:00 PM"},
+    {"days": "Sunday", "hours": "By appointment"}
+  ],
+  "currency": "USD",
+  "social": {
+    "instagram": "https://www.instagram.com/",
+    "facebook": "https://www.facebook.com/",
+    "youtube": "https://www.youtube.com/"
+  },
+  "theme": {"accent": "#c8a96b", "background": "#101111"},
+  "hero": {
+    "eyebrow": "A CURATED MOTORING EXPERIENCE",
+    "headline": "DRIVE YOUR DREAM.",
+    "subtitle": "Discover excellence. Experience performance."
+  },
+  "demo_notice": "Demonstration showroom. Listings and contact details are sample data; confirm all details before making a purchase."
+}
